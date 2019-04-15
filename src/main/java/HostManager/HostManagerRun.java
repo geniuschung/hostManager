@@ -7,7 +7,13 @@ public class HostManagerRun {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		new HostManager();
+		//new HostManager();
+		new HostManagerRun()
 	}
+
+	public HostManagerRun() {
+		new HostManagerJavaFxApplication();
+	}
+
 
 }
